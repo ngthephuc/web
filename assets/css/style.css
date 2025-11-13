@@ -229,6 +229,7 @@ a {
     padding: 1rem 2rem;
   }
 } */
+/* ======================ABOUT ME==================== */
 .aboutme {
   background-color: rgb(2, 6, 23);
   height: 704px;
@@ -293,4 +294,67 @@ a {
   background-color: white;
   color: black;
   cursor: pointer;
+}
+/* ================SERVICE============== */
+.service {
+  height: 759px;
+  background-color: rgb(17, 24, 39);
+  padding: 96px 165px;
+}
+.service-body {
+  width: 1110px;
+  height: 567px;
+}
+.service-container {
+  width: 461px;
+  height: 169px;
+}
+.service-container h1 {
+  font-size: 4.2rem;
+}
+.service-container p {
+  margin-top: 24px;
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+.service-box {
+  margin-top: 56px;
+  display: flex;
+  justify-content: space-between;
+}
+.service-content,
+.service-content2,
+.service-content3 {
+  width: 350px;
+  height: 342px;
+  background-color: rgb(2, 6, 23);
+  padding: 32px;
+  display: block;
+  text-align: center;
+  border-radius: 20px;
+}
+.service-box1,
+.service-box2,
+.service-box3 {
+}
+.service-content h2,
+.service-content2 h2,
+.service-content3 h2 {
+  font-size: 2.6rem;
+  font-weight: bold;
+  margin-top: 32px;
+}
+.service-content h3,
+.service-content2 h3,
+.service-content3 h3 {
+  font-size: 2.6rem;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.service-content p,
+.service-content2 p,
+.service-content3 p {
+  font-size: 1.6rem;
+  margin-top: 16px;
+  line-height: 1.2;
 }
