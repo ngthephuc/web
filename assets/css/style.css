@@ -1,0 +1,296 @@
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+body {
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* ========== NỀN ========== */
+.bg-color {
+  /* background: linear-gradient(to right, rgb(3, 85, 79), rgb(86, 96, 103), rgb(96, 133, 96)); */
+  background-color: rgb(17, 24, 39);
+  width: 1440px;
+  /* height: 681px; */
+  color: white;
+  margin: 0 auto;
+}
+
+/* ========== BỐ CỤC CHÍNH ========== */
+.layout {
+  width: 1440px;
+  /* height: 681px; */
+  display: flex;
+  flex-direction: column;
+  /* overflow: auto; */
+}
+.header .navigation {
+  width: 1440px;
+  height: 62px;
+}
+/* .header {
+  padding: 32px 0 8px;
+}
+.header.fixed {
+  position: sticky;
+  top: -30px;
+} */
+/* ========== THANH ĐIỀU HƯỚNG ========== */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background: linear-gradient(to right, rgb(77, 66, 101), rgb(18, 5, 48)); */
+  background-color: rgb(2, 6, 23);
+  padding: 1.8rem 16.8rem;
+  flex-wrap: wrap;
+}
+.header .navigation nav {
+  padding: 5px 0;
+}
+.navigation img {
+  width: 115px;
+  height: 30px;
+}
+span {
+  color: yellow;
+}
+.main {
+  width: 1440px;
+  height: 619px;
+  padding: 96px 174px;
+}
+.home .navigation nav ul {
+  display: flex;
+  gap: 4rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 1.6rem;
+  flex-wrap: wrap;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.active {
+  color: rgb(223, 115, 115);
+  font-weight: bold;
+}
+.navigation nav ul li a {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.home .navigation nav ul li a:hover {
+  color: rgb(10, 91, 85);
+  font-weight: bold;
+  text-shadow: 10px 0v 0 currentColor;
+}
+
+/* ========== NỘI DUNG ========== */
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1092px;
+  height: 427px;
+  flex-wrap: wrap; /* Cho responsive */
+}
+.body {
+  padding: 78px 0;
+}
+/* Giới thiệu bản thân */
+.introduce {
+  width: 466px;
+  height: 271px;
+}
+
+.introduce h2 {
+  font-size: 1.6rem;
+}
+
+.introduce h1 {
+  font-size: 4.2rem;
+  margin-top: 2.4rem;
+  font-weight: 500;
+}
+
+.introduce p {
+  margin-top: 24px;
+  font-size: 1.6rem;
+  /* line-height: 1.6; */
+}
+
+.introduce button {
+  margin-top: 2.4rem;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 2rem;
+  color: white;
+  font-size: 1.6rem;
+  cursor: pointer;
+  background: linear-gradient(90deg, rgb(155, 107, 72) 0%, rgb(147, 143, 120) 16.667%, rgb(106, 151, 148) 33.333%, rgb(50, 128, 145) 50%, rgb(0, 82, 112) 66.667%, rgb(0, 31, 62) 83.333%, rgb(0, 0, 14) 100%);
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.introduce button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+  background: white;
+  color: black;
+  cursor: pointer;
+}
+
+/* Ảnh cá nhân */
+.img {
+  /* flex: 1 1 300px; */
+  display: flex;
+  width: 427px;
+  height: 427px;
+  margin-left: 199px;
+}
+
+.img img {
+  width: 427px;
+  height: 427px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+/* ========== RESPONSIVE ==========
+@media (max-width: 1024px) {
+  .navigation {
+    padding: 2rem 5rem;
+  }
+  .content {
+    padding: 6rem 5rem;
+  }
+  .introduce h1 {
+    font-size: 4rem;
+  }
+  .introduce p {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+
+  .navigation nav ul {
+    gap: 2rem;
+    font-size: 2rem;
+  }
+
+  .introduce {
+    margin-bottom: 5rem;
+  }
+
+  .img img {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navigation {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .navigation h1 {
+    font-size: 3rem;
+  }
+
+  .navigation nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    font-size: 1.8rem;
+  }
+
+  .introduce h1 {
+    font-size: 3.2rem;
+  }
+
+  .introduce p {
+    font-size: 1.6rem;
+  }
+
+  .introduce button {
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+  }
+} */
+.aboutme {
+  background-color: rgb(2, 6, 23);
+  height: 704px;
+  padding: 0 166px;
+}
+
+.about-img .nen {
+  width: 475px;
+  height: 502px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.about-img .anh {
+  width: 475px;
+  height: 475px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* left: -35px; */
+  z-index: 2;
+}
+.about-img {
+  width: 510px;
+  height: 512px;
+  margin-right: 89px;
+  position: relative;
+}
+
+.about-body {
+  padding: 96px 0;
+  width: 1108px;
+  display: flex;
+}
+.about-container {
+  padding: 82px 0;
+}
+.about-content {
+  width: 509px;
+  height: 348px;
+}
+.images .nen {
+  bottom: 0;
+}
+.about-content h1 {
+  font-size: 4.2rem;
+}
+.about-content p {
+  font-size: 1.6rem;
+  margin-top: 32px;
+}
+.about-content button {
+  margin-top: 40px;
+  font-size: 1.6rem;
+  padding: 10px 30px;
+  border-radius: 50px;
+  background-color: black;
+  color: white;
+}
+.about-content button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
