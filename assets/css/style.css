@@ -358,3 +358,165 @@ a {
   margin-top: 16px;
   line-height: 1.2;
 }
+/* ===============Portfolio================ */
+.portfolio {
+  height: 1006;
+  width: 1440px;
+  background-color: rgb(2, 6, 23);
+  padding: 0 165px;
+}
+.port-body {
+  width: 1110px;
+  height: 1006px;
+}
+.port-main {
+  /* padding: 0 165px; */
+}
+.myportcontent {
+  height: 345px;
+  width: 1110px;
+  padding: 96px 325px 80px 325px;
+}
+.my-port {
+  width: 460px;
+  height: 169px;
+}
+
+.content-port {
+  height: 565px;
+  width: 1110px;
+}
+.my-port h1 {
+  font-size: 4.2rem;
+  text-align: center;
+}
+.my-port p {
+  font-size: 1.6rem;
+  margin-top: 24px;
+  text-align: center;
+}
+.content-port {
+  display: flex;
+}
+.content-port .box1 {
+  width: 540px;
+  height: 565px;
+}
+.content-port .box1 img {
+  max-width: 540px;
+  max-height: 565px;
+}
+.content-port .box2 {
+  width: 543px;
+  height: 565px;
+  display: flex;
+  margin-left: 27px;
+}
+.content-port .box2 .img-port {
+  width: 256px;
+  height: 565px;
+  margin-right: 31px;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  display: flex;
+}
+.content-port .box2 .image-port {
+  width: 256px;
+  height: 565px;
+  display: flex;
+  flex-direction: column;
+}
+.img1,
+.img2,
+.image1,
+.image2 {
+  width: 256px;
+  height: 268px;
+}
+.box2 .img-port .img2 {
+  margin-top: 29px;
+}
+.box2 .image-port .image2 {
+  margin-top: 29px;
+}
+/* ====================my experiences============== */
+.Experiences {
+  background-color: rgb(2, 6, 23);
+}
+.experiences {
+  height: 714px;
+  width: 1424px;
+  background-color: rgb(17, 24, 39);
+  padding: 85px 149px;
+  margin: 0 auto;
+}
+.experiences-body {
+  width: 1126px;
+  height: 544px;
+}
+.experiences-container {
+  width: 730px;
+  height: 142px;
+}
+.experiences-container h1 {
+  font-size: 4.2rem;
+}
+.experiences-container p {
+  margin-top: 24px;
+  font-size: 1.6rem;
+  /* line-height: 1.2; */
+}
+.experiences-box {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.experiences-content,
+.experiences-content3 {
+  height: 303px;
+  width: 366px;
+  background-color: rgb(2, 6, 23);
+  padding: 32px;
+  display: block;
+  /* text-align: center; */
+  border-radius: 20px;
+}
+
+.experiences-content2 {
+  width: 366px;
+  height: 322px;
+  background-color: rgb(2, 6, 23);
+  padding: 32px;
+  display: block;
+  /* text-align: center; */
+  border-radius: 20px;
+}
+/* .experiences-box1,
+.experiences-box2,
+.experiences-box3 {
+} */
+.experiences-content h2,
+.experiences-content2 h2,
+.experiences-content3 h2 {
+  font-size: 2.6rem;
+  font-weight: bold;
+  /* margin-top: 32px; */
+}
+.experiences-content h3,
+.experiences-content2 h3,
+.experiences-content3 h3 {
+  font-size: 2.6rem;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.experiences-box .strong {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.experiences-content p,
+.experiences-content2 p,
+.experiences-content3 p {
+  font-size: 1.6rem;
+  margin-top: 16px;
+  line-height: 1.2;
+}
