@@ -520,3 +520,125 @@ a {
   margin-top: 16px;
   line-height: 1.2;
 }
+/* ===================Contact=============== */
+.contact {
+  width: 1440px;
+  height: 1062px;
+  background-color: rgb(2, 6, 23);
+  display: flex;
+  flex-direction: column;
+}
+.contact-box {
+  padding: 0 165px;
+}
+.box-contact1 {
+  width: 1110px;
+  height: 742px;
+  /* padding: 0 165px; */
+}
+.box-information {
+  width: 684px;
+  height: 320px;
+}
+.box-contact2 {
+  padding: 0 378px;
+}
+.contact-body {
+  padding: 56px 212px;
+}
+.bodycontact {
+  width: 686px;
+  height: 142px;
+  text-align: center;
+}
+.maincontact {
+  width: 1110px;
+  height: 352px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact-main {
+  padding: 50px 0;
+}
+.main-content {
+  width: 347px;
+  height: 252px;
+}
+.main-content1 {
+  width: 540px;
+  height: 352px;
+}
+.information-content {
+  padding: 50px 0;
+}
+.boxinf {
+  width: 684px;
+  height: 140px;
+  text-align: center;
+}
+.inf-icon {
+  width: 255px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.information {
+  width: 685px;
+  height: 80px;
+  padding: 0 215px;
+}
+.inf-icon .icon-contact {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+}
+.boxinf h2 {
+  font-size: 4rem;
+}
+.boxinf p {
+  font-size: 1.6rem;
+  margin-top: 20px;
+  line-height: 1.2;
+}
+.bodycontact h1 {
+  font-size: 4.2rem;
+}
+.bodycontact p {
+  font-size: 1.6rem;
+  margin-top: 15px;
+  line-height: 1.2;
+}
+.main-content h3 {
+  font-size: 1.6rem;
+  margin-top: 40px;
+}
+.main-content span {
+  font-weight: bold;
+}
+.main-content1 .name {
+  width: 350px;
+  height: 63px;
+  font-size: 1.6rem;
+  border-radius: 10px;
+}
+.main-content1 .text {
+  width: 540px;
+  height: 166px;
+  margin-top: 32px;
+  font-size: 1.6rem;
+  border-radius: 10px;
+}
+.main-content1 button {
+  width: 123px;
+  height: 59px;
+  margin-top: 32px;
+  font-size: 1.6rem;
+  border-radius: 50px;
+  background-color: white;
+  color: black;
+}
+.main-content1 button:hover {
+  background-color: black;
+  color: white;
+}
